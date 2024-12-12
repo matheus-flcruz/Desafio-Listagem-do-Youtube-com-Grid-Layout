@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 99vw; */
+    height: 100vh;
+    margin: 0 auto;
+    /* padding: 0 2%; */
+}
+
+.menu {
+    height: 3.5rem;
+    min-width: 725px;
+    padding: 0 1rem;
+    display: grid;
+
+    background-color: blue;
+}
+
+#left {
+    width: 9.125rem;
+    height: 1.5rem;
+    margin-left: -15px;
+    display: grid;
+
+    background-color: red;
+}
+
+#menu-hamburger {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#logo {
+    width: 5.625rem;
+    height: 1.25rem;
+}
+
+.pointer {
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#center {
+    width: 404px;
+    height: 2.5rem;
+    display: grid;
+}
+
+form {
+    height: 2.5rem;
+}
+  
+input {
+   width: 21.75rem;
+   height: 2.5rem;
+   padding-left: 0.9375rem;
+   border: 1px solid #CCCCCC;
+}
+  
+#lupa-button {
+   width: 3.56rem;
+   height: 2.625rem;
+   border: 1px solid #CCCCCC;
+   cursor: pointer;
+   background-color: transparent;
+}
+
+#lupa {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#right {
+    width: 8.125rem;
+    height: 2.125rem;
+    display: grid;
+
+    background-color: green;
+}
+
+.icon-right {
+    width: 24px;
+    height: 24px;
+}
+
+#photo {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
