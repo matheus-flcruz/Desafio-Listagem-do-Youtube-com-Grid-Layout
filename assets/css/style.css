@@ -8,17 +8,20 @@
 }
 
 body {
-    /* width: 99vw; */
+    width: 99vw;
     height: 100vh;
     margin: 0 auto;
-    /* padding: 0 2%; */
 }
 
 .menu {
     height: 3.5rem;
     min-width: 725px;
     padding: 0 1rem;
-    display: grid;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
 
     background-color: blue;
 }
@@ -28,8 +31,9 @@ body {
     height: 1.5rem;
     margin-left: -15px;
     display: grid;
-
-    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.25rem;
 }
 
 #menu-hamburger {
@@ -49,12 +53,14 @@ body {
 }
 
 #center {
-    width: 404px;
+    width: 25.25rem;
     height: 2.5rem;
-    display: grid;
+    display: flex;;
 }
 
 form {
+    display: flex;
+    align-items: center;
     height: 2.5rem;
 }
   
@@ -63,6 +69,7 @@ input {
    height: 2.5rem;
    padding-left: 0.9375rem;
    border: 1px solid #CCCCCC;
+   flex-grow: 1;
 }
   
 #lupa-button {
@@ -81,9 +88,9 @@ input {
 #right {
     width: 8.125rem;
     height: 2.125rem;
-    display: grid;
-
-    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
 }
 
 .icon-right {
@@ -95,4 +102,23 @@ input {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3 1fr);
+}
+
+.thumbs {
+
+}
+
+.sidebar {
+    width: 218px;
+    height: 968px;
+    padding: 24px;
+    gap: 22px;
+
+    background-color: red;
 }
