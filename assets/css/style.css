@@ -11,6 +11,12 @@ body {
     width: 99vw;
     height: 100vh;
     margin: 0 auto;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-rows: 3.5rem auto;
+    grid-template-areas: 
+    "menu" 
+    "main";
 }
 
 .menu {
@@ -22,6 +28,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
+    grid-area: menu;
 
     background-color: blue;
 }
@@ -104,21 +111,27 @@ input {
     border-radius: 50%;
 }
 
-.videos {
+main {
+    grid-area: main;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(3 1fr);
+    grid-template-columns: 218px 1fr;
+    grid-template-areas: 
+        "sidebar videos";
+}
+
+.videos {
+    grid-area: videos;
+    background-color: darkgreen;
+    height: 968px;
 }
 
 .thumbs {
-
+    width: 282px;
+    height: 262px;
 }
 
 .sidebar {
-    width: 218px;
-    height: 968px;
-    padding: 24px;
-    gap: 22px;
-
+    grid-area: sidebar;
     background-color: red;
+    height: 968px;
 }
