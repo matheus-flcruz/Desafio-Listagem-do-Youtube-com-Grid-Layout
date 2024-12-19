@@ -29,8 +29,6 @@ body {
     justify-content: space-between;
     padding: 0 1rem;
     grid-area: menu;
-
-    background-color: blue;
 }
 
 #left {
@@ -132,6 +130,82 @@ main {
 
 .sidebar {
     grid-area: sidebar;
-    background-color: red;
     height: 968px;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 15px;
+    
+
+    /* background-color: red; */
+}
+.itens {
+    height: 24px;
+    margin: 15px 0 15px 15px;
+
+    /* background-color: blue; */
+}
+
+.sidebar-inicio {
+    width: 75px;
+}
+
+.sidebar-explorar {
+    width: 91px;
+}
+
+.sidebar-inscricoes {
+    width: 105px;
+}
+
+.sidebar-yt-music {
+    width: 136px;
+}
+
+.sidebar-videos-gostei {
+    width: 152px;
+}
+
+.sidebar-assistir-depois {
+    width: 157px;
+}
+
+.sidebar-downloads {
+    width: 110px;
+}
+
+.sidebar-filmes {
+    width: 82px;
+}
+
+.sidebar-aprender {
+    width: 97px;
+}
+
+.sidebar-esportes {
+    width: 96px;
+}
+
+button, .icon {
+    width: 24px;
+    height: 24px;
+    border: transparent;
+    background: transparent;
+
+    /* background-color: yellow; */
+}
+
+.sidebar-menu, #inicio {
+    height: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41;
+
+    /* background-color: green; */
+}
+
+#inicio {
+    width: 35px;
+    font-weight: 700;
 }
