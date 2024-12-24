@@ -134,22 +134,57 @@ main {
     height: 262px;
     padding: 16px;
 
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .thumb-videos {
     width: 250px;
     height: 140.29px;
 
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
 }
 
 .video-details {
     width: 249px;
     height: 74px;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
-    background-color: red;
+.video-details a {
+    color: #000;
+    text-decoration: none;
+}
+
+.cover a img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.cover {
+    width: 42px;
+    height: 74px;
+    
+}
+
+.details {
+    width: 197px;
+    height: 74px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.025625rem;
+    margin-bottom: 12px;
+}
+span, time {
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
 }
 
 .sidebar {
