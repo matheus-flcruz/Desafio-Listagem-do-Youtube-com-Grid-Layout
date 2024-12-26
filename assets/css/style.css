@@ -21,7 +21,7 @@ body {
 
 .menu {
     height: 3.5rem;
-    min-width: 725px;
+    min-width: 45.3125rem;
     padding: 0 1rem;
     display: flex;
     flex-flow: row nowrap;
@@ -35,7 +35,7 @@ body {
 #left {
     width: 9.125rem;
     height: 1.5rem;
-    margin-left: -15px;
+    margin-left: -0.9375rem;
     display: grid;
     display: flex;
     justify-content: space-between;
@@ -96,12 +96,12 @@ input {
     height: 2.125rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;;
+    align-items: center;
 }
 
 .icon-right {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 #photo {
@@ -113,40 +113,38 @@ input {
 main {
     grid-area: main;
     display: grid;
-    grid-template-columns: 218px 1fr;
+    grid-template-columns: 13.625rem 1fr;
     grid-template-areas: 
         "sidebar videos";
 }
 
 .videos {
     grid-area: videos;
-    height: 968px;
+    height: 60.5rem;
     display: grid;
-    grid-template: repeat(3, 262px)/repeat(4, 282px);
-    padding: 30px 0 0 30px;
-    gap: 16px;
-
-    /* background-color: darkgreen; */
+    grid-template: repeat(3, 16.375rem)/repeat(4, 17.625rem);
+    padding: 1.875rem 0 0 1.875rem;
+    gap: 1rem;
 }
 
 .thumbs {
-    width: 282px;
-    height: 262px;
-    padding: 16px;
+    width: 17.625rem;
+    height: 16.375rem;
+    padding: 1rem;
 }
 
 .thumb-videos {
-    width: 250px;
-    height: 140.29px;
+    width: 15.625rem;
+    height: 8.768125rem;
 }
 
 .video-details {
-    width: 249px;
-    height: 74px;
-    margin-top: 10px;
+    width: 15.5625rem;
+    height: 4.625rem;
+    margin-top: 0.625rem;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .video-details a {
@@ -155,114 +153,107 @@ main {
 }
 
 .cover a img {
-    width: 42px;
-    height: 42px;
+    width: 2.625rem;
+    height: 2.625rem;
     border-radius: 50%;
 }
 
 .cover {
-    width: 42px;
-    height: 74px;
-    
+    width: 2.625rem;
+    height: 4.625rem;
 }
 
 .details {
-    width: 197px;
-    height: 74px;
+    width: 12.3125rem;
+    height: 4.625rem;
 }
 
 h3 {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1.025625rem;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
+
 span, time {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
+    color: #606060;
     display: block;
 }
 
 .sidebar {
     grid-area: sidebar;
-    height: 968px;
+    height: 60.5rem;
     display: flex;
     flex-flow: column wrap;
-    padding: 15px;
-    
-
-    /* background-color: red; */
+    padding: 0.9375rem;
 }
+
 .itens {
-    height: 24px;
-    margin: 15px 0 15px 15px;
+    height: 1.5rem;
+    margin: 0.9375rem 0 0.9375rem 0.9375rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    /* background-color: blue; */
 }
 
 .sidebar-inicio {
-    width: 75px;
+    width: 4.6875rem;
 }
 
 .sidebar-explorar {
-    width: 91px;
+    width: 5.6875rem;
 }
 
 .sidebar-inscricoes {
-    width: 105px;
+    width: 6.5625rem;
 }
 
 .sidebar-yt-music {
-    width: 136px;
+    width: 8.5rem;
 }
 
 .sidebar-videos-gostei {
-    width: 152px;
+    width: 9.5rem;
 }
 
 .sidebar-assistir-depois {
-    width: 157px;
+    width: 9.8125rem;
 }
 
 .sidebar-downloads {
-    width: 110px;
+    width: 6.875rem;
 }
 
 .sidebar-filmes {
-    width: 82px;
+    width: 5.125rem;
 }
 
 .sidebar-aprender {
-    width: 97px;
+    width: 6.0625rem;
 }
 
 .sidebar-esportes {
-    width: 96px;
+    width: 6rem;
 }
 
 button, .icon {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     border: transparent;
     background: transparent;
-
-    /* background-color: yellow; */
 }
 
 .sidebar-menu, #inicio {
-    height: 16px;
+    height: 1rem;
     text-decoration: none;
     color: #000;
     font-weight: 400;
-    font-size: 14px;
-
-    /* background-color: green; */
+    font-size: 0.875rem;
 }
 
 #inicio {
-    width: 35px;
+    width: 2.1875rem;
     font-weight: 700;
 }
