@@ -27,7 +27,6 @@ body {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1rem;
     grid-area: menu;
     background-color: #FFF;
 }
@@ -90,6 +89,12 @@ input {
     width: 1.5rem;
     height: 1.5rem;
 }
+
+input::placeholder {
+    color: #aaa;
+    font-size: 0.875rem;
+}
+
 
 #right {
     width: 8.125rem;
