@@ -3,7 +3,7 @@
 ## Descrição
 Este projeto recria a página inicial do YouTube utilizando **HTML** e **CSS**. O objetivo principal foi consolidar o aprendizado de **Grid Layout**, explorando conceitos como criação de grids bidimensionais e posicionamento de elementos em áreas específicas.
 
-Além disso, durante o desenvolvimento, utilizei os comandos do Git para versionamento e controle do projeto, aplicando na prática os conceitos do módulo **Git & GitHub** do curso da Steph Cardoso, Comunidade Dev Completo.
+Além disso, durante o desenvolvimento, utilizei os comandos do Git para versionamento e controle do projeto, aplicando na prática os conceitos do módulo **Git & GitHub** do curso da Stephanie Cardoso, Comunidade Dev Completo.
 
 ## 📚 Conteúdo Estudado
 O projeto faz parte do módulo **Dominando Grid Layout no CSS**, do curso **Formação CSS Web Developer** da DIO. Os seguintes tópicos foram abordados:
