@@ -5,9 +5,304 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Listagem do Youtube com Grid Layout</title>
 
+    <link rel="shortcut icon" href="assets/imgs/youtube logo.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <header class="menu">
+        <nav id="left">
+            <button class="pointer">
+                    <img id="hamburger-menu" src="assets/imgs/menu.svg" alt="imagem de menu hamburger de navegação">
+            </button>
+            <button class="pointer">
+                <img id="logo" src="assets/imgs/youtube 1.svg" alt="logo do youtube">
+            </button>
+        </nav>
+        <nav id="center">
+            <form action="#" method="get">
+                <input type="text" name="search" placeholder="Pesquisar">
+                <button type="submit" id="lupa-button"><img id="lupa" src="assets/imgs/lupa.svg" alt=""></button>
+            </form>
+        </nav>
+        <nav id="right">
+            <div class="icon-right pointer">
+                <img src="assets/imgs/video.svg" alt="ícone do local de criação de video">
+            </div>
+            <div class="icon-right pointer">
+                <img src="assets/imgs/bell.svg" alt="ícone das notificações">
+            </div>
+            <div><img id="photo" src="assets/imgs/foto.jpg" alt="foto do perfil do usuário logado" class="pointer"></div>
+        </nav>
+    </header>
+    <main>
+        <div class="sidebar">
+            <nav class="sidebar-inicio itens">
+                <button>
+                    <img src="assets/imgs/home.svg" alt="" class="icon">
+                </button>
+                <a href="#" id="inicio" class="sidebar-menu">Início</a>
+            </nav>
+            <nav class="sidebar-explorar itens">
+                <button>
+                    <img src="assets/imgs/compass.svg" alt="" class="icon">
+                </button>
+                <a href="#" class="sidebar-menu">Explorar</a>
+            </nav>
+            <nav class="sidebar-inscricoes itens">
+                <button>
+                    <img src="assets/imgs/youtube.svg" alt="" class="icon">
+                </button>
+                <a href="#" class="sidebar-menu">Inscrições</a>
+            </nav>
+            <nav class="sidebar-yt-music itens">
+                <button>
+                    <img src="assets/imgs/disc.svg" alt="" class="icon">
+                </button>
+                <a href="#" class="sidebar-menu">YouTube Music</a>
+            </nav>
+            <nav class="sidebar-videos-gostei itens">
+                <button>
+                    <img src="assets/imgs/thumbs-up.svg" alt="" class="icon">
+                </button>
+                <a href="#" class="sidebar-menu">Vídeos que gostei</a>
+            </nav>
+            <nav class="sidebar-assistir-depois itens">
+                <button>
+                    <img src="assets/imgs/clock.svg" alt="" class="icon">
+                </button>
+                <a href="#" class="sidebar-menu">Assistir mais tarde</a>
+            </nav>
+            <nav class="sidebar-downloads itens">
+                <button>
+                    <img src="assets/imgs/download.png" alt="" class="icon">
+                </button>
+                <a href="#" class="sidebar-menu">Downloads</a>
+            </nav>
+            <nav class="sidebar-filmes itens">
+                <button>
+                    <img src="assets/imgs/film.svg" alt="" class="icon">
+                </button>
+                <a href="#" class="sidebar-menu">Filmes</a>
+            </nav>
+            <nav class="sidebar-aprender itens">
+                <button>
+                    <img src="assets/imgs/book.svg" alt="" class="icon">
+                </button>
+                <a href="#" class="sidebar-menu">Aprender</a>
+            </nav>
+            <nav class="sidebar-esportes itens">
+                <button>
+                    <img src="assets/imgs/award.svg" alt="" class="icon">
+                </button>
+                <a href="#" class="sidebar-menu">Esportes</a>
+            </nav>
+        </div>
+        <section class="videos">
+            <div class="thumbs">
+                <a href="https://www.youtube.com/watch?v=L-iepu3EtyE" target="_blank">
+                    <img src="assets/imgs/covers/aerials.png" alt="cover do video Aerials" class="thumb-videos">
+                </a>
+                <div class="video-details">
+                    <div class="cover">
+                        <a href="https://www.youtube.com/@systemofadownVEVO" target="_blank">
+                            <img src="assets/imgs/covers/SOAD.jpg" alt="imagem do canal do system of a down">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="https://www.youtube.com/watch?v=L-iepu3EtyE" target="_blank"><h3>System Of A Down - Aerials (Official HD Video)</h3></a>
+                    <span>484 mi de visualizações</span>
+                    <time datetime="">há 15 anos</time>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbs">
+                <a href="https://www.youtube.com/watch?v=3YxaaGgTQYM" target="_blank">
+                    <img src="assets/imgs/covers/bring me to life.png" alt="cover do video bring me to life" class="thumb-videos">
+                </a>
+                <div class="video-details">
+                    <div class="cover">
+                        <a href="https://www.youtube.com/@EvanescenceVEVO" target="_blank">
+                            <img src="assets/imgs/covers/EV.jpg" alt="imagem do canal do Evanescence">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="https://www.youtube.com/watch?v=3YxaaGgTQYM" target="_blank"><h3>Evanescence - Bring Me To Life (Official HD Music Video)</h3></a>
+                    <span>1,4 bi de visualizações</span>
+                    <time datetime="">há 15 anos</time>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbs">
+                <a href="https://www.youtube.com/watch?v=6fVE8kSM43I" target="_blank">
+                    <img src="assets/imgs/covers/duality.png" alt="cover do video duality" class="thumb-videos">
+                </a>
+                <div class="video-details">
+                    <div class="cover">
+                        <a href="https://www.youtube.com/channel/UCOJZ1tna8yj8mAEITPkHNCQ" target="_blank">
+                            <img src="assets/imgs/covers/slipknot.jpg" alt="imagem do canal do Slipknot">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="https://www.youtube.com/watch?v=6fVE8kSM43I" target="_blank"><h3>Slipknot - Duality [OFFICIAL VIDEO] [HD]</h3></a>
+                    <span>431 mi de visualizações</span>
+                    <time datetime="">há 15 anos</time>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbs">
+                <a href="https://www.youtube.com/watch?v=5FrhtahQiRc" target="_blank">
+                    <img src="assets/imgs/covers/heavy is te crowd.png" alt="cover do video heavy is the crowd" class="thumb-videos">
+                </a>
+                <div class="video-details">
+                    <div class="cover">
+                        <a href="https://www.youtube.com/@leagueoflegends" target="_blank">
+                            <img src="assets/imgs/covers/lol.jpg" alt="imagem do canal do League of Legends">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="https://www.youtube.com/watch?v=5FrhtahQiRc" target="_blank"><h3>Heavy Is The Crown ft. Linkin Park (videoclipe oficial) | ...</h3></a>
+                    <span>69 mi de visualizações</span>
+                    <time datetime="">há 3 meses</time>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbs">
+                <a href="https://www.youtube.com/watch?v=qFfnlYbFEiE" target="_blank">
+                    <img src="assets/imgs/covers/hendrix.png" alt="cover do video voodoo chile" class="thumb-videos">
+                </a>
+                <div class="video-details">
+                    <div class="cover">
+                        <a href="https://www.youtube.com/channel/UCEqrtYLjy1o4hvaUI0J530w" target="_blank">
+                            <img src="assets/imgs/covers/hendrix.jpg" alt="imagem do canal do Jimi Hendrix">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="https://www.youtube.com/watch?v=qFfnlYbFEiE" target="_blank"><h3>The Jimi Hendrix Experience - Voodoo Child (Slight Return)...</h3></a>
+                    <span>51 mi de visualizações</span>
+                    <time datetime="">há 4 anos</time>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbs">
+                <a href="https://www.youtube.com/watch?v=K793n62HvaI" target="_blank">
+                    <img src="assets/imgs/covers/rock n roll.png" alt="cover do video rock n roll" class="thumb-videos">
+                </a>
+                <div class="video-details">
+                    <div class="cover">
+                        <a href="https://www.youtube.com/channel/UCaKZA66vM_TUpetUNohmR0A" target="_blank">
+                            <img src="assets/imgs/covers/led.jpg" alt="imagem do canal do Led Zeppelin">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="https://www.youtube.com/watch?v=K793n62HvaI" target="_blank"><h3>Led Zeppelin - Rock and Roll (Live at O2 Arena 2007)...</h3></a>
+                    <span>3,6 mi de visualizações</span>
+                    <time datetime="">há 3 anos</time>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbs">
+                <a href="https://www.youtube.com/watch?v=J1KqQYsUYIk" target="_blank">
+                    <img src="assets/imgs/covers/session.png" alt="cover do video session" class="thumb-videos">
+                </a>
+                <div class="video-details">
+                    <div class="cover">
+                        <a href="https://www.youtube.com/channel/UCZU9T1ceaOgwfLRq7OKFU4Q" target="_blank">
+                            <img src="assets/imgs/covers/LP.jpg" alt="imagem do canal do Linkin Park">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="https://www.youtube.com/watch?v=J1KqQYsUYIk" target="_blank"><h3>Session - Linkin Park (Meteora)</h3></a>
+                    <span>6,6 mi de visualizações</span>
+                    <time datetime="">há 9 anos</time>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbs">
+                <a href="https://www.youtube.com/watch?v=zY5nYmTUfnQ" target="_blank">
+                    <img src="assets/imgs/covers/war pigs.png" alt="cover do video war pigs" class="thumb-videos">
+                </a>
+                <div class="video-details">
+                    <div class="cover">
+                        <a href="https://www.youtube.com/channel/UCrx-X329UKv0Y06VhfpFVvw" target="_blank">
+                            <img src="assets/imgs/covers/sabbath.jpg" alt="imagem do canal do Black Sabbath">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="https://www.youtube.com/watch?v=zY5nYmTUfnQ" target="_blank"><h3>BLACK SABBATH - "War Pigs" from 'The End' (Live Video)</h3></a>
+                    <span>20 mi de visualizações</span>
+                    <time datetime="">há 7 anos</time>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbs">
+                <a href="https://www.youtube.com/watch?v=3rFoGVkZ29w&list=PL2D4A44B959D87893&index=30" target="_blank">
+                    <img src="assets/imgs/covers/st.anger.png" alt="cover do video st. anger" class="thumb-videos">
+                </a>
+                <div class="video-details">
+                    <div class="cover">
+                        <a href="https://www.youtube.com/@metallica/featured" target="_blank">
+                            <img src="assets/imgs/covers/metallica.jpg" alt="imagem do canal do Metallica">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="https://www.youtube.com/watch?v=3rFoGVkZ29w&list=PL2D4A44B959D87893&index=30" target="_blank"><h3>Metallica: St. Anger (Official Music Video)</h3></a>
+                    <span>42 mi de visualizações</span>
+                    <time datetime="">há 15 anos</time>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbs">
+                <a href="https://www.youtube.com/watch?v=eVTXPUF4Oz4" target="_blank">
+                    <img src="assets/imgs/covers/in the end.png" alt="cover do video in the end" class="thumb-videos">
+                </a>
+                <div class="video-details">
+                    <div class="cover">
+                        <a href="https://www.youtube.com/channel/UCZU9T1ceaOgwfLRq7OKFU4Q" target="_blank">
+                            <img src="assets/imgs/covers/LP.jpg" alt="imagem do canal do Linkin Park">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="https://www.youtube.com/watch?v=eVTXPUF4Oz4" target="_blank"><h3>In The End [Official HD Music Video] - Linkin Park</h3></a>
+                    <span>1,9 bi de visualizações</span>
+                    <time datetime="">há 15 anos</time>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbs">
+                <a href="https://www.youtube.com/watch?v=iywaBOMvYLI" target="_blank">
+                    <img src="assets/imgs/covers/toxicity.png" alt="cover do video toxicity" class="thumb-videos">
+                </a>
+                <div class="video-details">
+                    <div class="cover">
+                        <a href="https://www.youtube.com/@systemofadownVEVO" target="_blank">
+                            <img src="assets/imgs/covers/SOAD.jpg" alt="imagem do canal do system of a down">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="https://www.youtube.com/watch?v=iywaBOMvYLI" target="_blank"><h3>System Of A Down - Toxicity (Official HD Video)</h3></a>
+                    <span>989 mi de visualizações</span>
+                    <time datetime="">há 15 anos</time>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbs">
+                <a href="https://www.youtube.com/watch?v=kivUsDGWojU" target="_blank">
+                    <img src="assets/imgs/covers/two faced.png" alt="cover do video " class="thumb-videos two faced">
+                </a>
+                <div class="video-details">
+                    <div class="cover">
+                        <a href="https://www.youtube.com/channel/UCZU9T1ceaOgwfLRq7OKFU4Q" target="_blank">
+                            <img src="assets/imgs/covers/LP.jpg" alt="imagem do canal do Linkin Park">
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="https://www.youtube.com/watch?v=kivUsDGWojU" target="_blank"><h3>Two Faced (Official Music Video) - Linkin Park</h3></a>
+                    <a href=""><span>23 mi de visualizações</span></a>
+                    <a href=""><time datetime="">há 1 mês</time></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

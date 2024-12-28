@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 99vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-rows: 3.5rem auto;
+    grid-template-areas: 
+    "menu" 
+    "main";
+}
+
+.menu {
+    height: 3.5rem;
+    min-width: 45.3125rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: menu;
+    background-color: #FFF;
+}
+
+#left {
+    width: 9.125rem;
+    height: 1.5rem;
+    margin-left: -0.9375rem;
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.25rem;
+}
+
+#menu-hamburger {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#logo {
+    width: 5.625rem;
+    height: 1.25rem;
+}
+
+.pointer {
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#center {
+    width: 25.25rem;
+    height: 2.5rem;
+    display: flex;;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+}
+  
+input {
+   width: 21.75rem;
+   height: 2.5rem;
+   padding-left: 0.9375rem;
+   border: 1px solid #CCCCCC;
+   flex-grow: 1;
+}
+  
+#lupa-button {
+   width: 3.56rem;
+   height: 2.625rem;
+   border: 1px solid #CCCCCC;
+   cursor: pointer;
+   background-color: transparent;
+}
+
+#lupa {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+input::placeholder {
+    color: #aaa;
+    font-size: 0.875rem;
+}
+
+
+#right {
+    width: 8.125rem;
+    height: 2.125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-right {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#photo {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 13.625rem 1fr;
+    grid-template-areas: 
+        "sidebar videos";
+}
+
+.videos {
+    grid-area: videos;
+    height: 60.5rem;
+    display: grid;
+    grid-template: repeat(3, 16.375rem)/repeat(4, 17.625rem);
+    padding: 1.875rem 0 0 1.875rem;
+    gap: 1rem;
+}
+
+.thumbs {
+    width: 17.625rem;
+    height: 16.375rem;
+    padding: 1rem;
+}
+
+.thumb-videos {
+    width: 15.625rem;
+    height: 8.768125rem;
+}
+
+.video-details {
+    width: 15.5625rem;
+    height: 4.625rem;
+    margin-top: 0.625rem;
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.video-details a {
+    color: #000;
+    text-decoration: none;
+}
+
+.cover a img {
+    width: 2.625rem;
+    height: 2.625rem;
+    border-radius: 50%;
+}
+
+.cover {
+    width: 2.625rem;
+    height: 4.625rem;
+}
+
+.details {
+    width: 12.3125rem;
+    height: 4.625rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.025625rem;
+    margin-bottom: 0.75rem;
+}
+
+span, time {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #606060;
+    display: block;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    height: 60.5rem;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0.9375rem;
+}
+
+.itens {
+    height: 1.5rem;
+    margin: 0.9375rem 0 0.9375rem 0.9375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar-inicio {
+    width: 4.6875rem;
+}
+
+.sidebar-explorar {
+    width: 5.6875rem;
+}
+
+.sidebar-inscricoes {
+    width: 6.5625rem;
+}
+
+.sidebar-yt-music {
+    width: 8.5rem;
+}
+
+.sidebar-videos-gostei {
+    width: 9.5rem;
+}
+
+.sidebar-assistir-depois {
+    width: 9.8125rem;
+}
+
+.sidebar-downloads {
+    width: 6.875rem;
+}
+
+.sidebar-filmes {
+    width: 5.125rem;
+}
+
+.sidebar-aprender {
+    width: 6.0625rem;
+}
+
+.sidebar-esportes {
+    width: 6rem;
+}
+
+button, .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: transparent;
+    background: transparent;
+}
+
+.sidebar-menu, #inicio {
+    height: 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+#inicio {
+    width: 2.1875rem;
+    font-weight: 700;
+}
